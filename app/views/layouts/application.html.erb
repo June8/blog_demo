@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header id="main_navigation" class="clearfix">
-		<a href="#" class="name">Cuneyt Gultas</a>
+		<%= link_to "Cuneyt Gultas", root_path, class:"name" %>
 		<nav>
 			<%= link_to "Articles", posts_path %>
 			<a href="#">Projects</a>
@@ -18,7 +18,15 @@
 		</nav>
 	</header>
 
-<%= yield %>
+	<%= yield %>
 
+	<footer id="main_footer">
+		<p class="copyright">&copy;2015 Cuneyt Gultas</p>
+		<nav>
+			<a href="http://twitter.com/June8" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="http://dribbble.com/June8" target="_blank"><i class="fa fa-dribbble"></i></a>
+			<a href="http://github.com/June8" target="_blank"><i class="fa fa-github"></i></a>
+		</nav>
+	</footer>
 </body>
 </html>
