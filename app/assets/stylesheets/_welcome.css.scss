@@ -13,6 +13,7 @@
 }
 
 .homepage_content {
+
 	h2 {
 		font-size: 1.1rem;
 		text-transform: uppercase;
@@ -22,20 +23,22 @@
 		font-size: 1.35em;
 		font-weight: 400;
 		margin-bottom: .5em;
-	}
-	a {
-		text-decoration: none;
-		color: $dark;
-		&:hover {
-			color: $highlight;
+		a {
+			text-decoration: none;
+			color: $dark;
+			&:hover {
+				text-decoration: none;
+				color: $highlight;
+				}
+			}
 		}
-	}
 
 	.date {
 		font-size: .85em;
 		margin-bottom: 2em;
 		color: $light;
 	}
+	
 	p {
 		margin: 0 0 .75em 0;
 	}
